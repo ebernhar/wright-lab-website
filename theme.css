@@ -671,6 +671,20 @@ footer a:hover{text-decoration:underline;}
   height:auto;
   display:block;
 }
+
+/* leaf border — thick color band with a repeating hand-drawn plant border, white-on-color */
+.leaf-border{
+  width:100%;
+  height:150px;
+  background-color:var(--leaf);
+  background-image:url('images/research-border-white.png');
+  background-repeat:repeat-x;
+  background-position:bottom left;
+  background-size:auto 150px;
+}
+@media (max-width:700px){
+  .leaf-border{height:100px; background-size:auto 100px;}
+}
 .intro-para{
   max-width:1120px;
   margin:0 auto;
